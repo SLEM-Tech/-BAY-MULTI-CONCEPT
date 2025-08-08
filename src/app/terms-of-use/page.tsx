@@ -373,7 +373,7 @@ const Page = () => {
 						<ul className='list-disc pl-5 mt-1 space-y-1'>
 						<li>Comprehensive solution refunds for integrated service packages not achieving promised outcomes</li>
 						<li>Component-based refunds for specific elements of multi-service projects that fail to perform</li>
-						<li>Performance optimization refunds if integrated solutions don't achieve stated business targets</li>
+						<li>Performance optimization refunds if integrated solutions don&apos;t achieve stated business targets</li>
 						<li>Service coordination refunds for failures in multi-service management and delivery coordination</li>
 						<li>Customer outcome guarantee with measurable performance criteria and success metrics</li>
 						</ul>
