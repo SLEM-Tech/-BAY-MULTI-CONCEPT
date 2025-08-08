@@ -121,8 +121,8 @@ const Footer = () => {
   const staggerDelay = 0.2;
 
   return (
-    <footer className="bg-[#fadfdb] w-[90%] py-2 flex flex-col item-center mx-auto mb-6">
-      <div className="mx-auto max-w-[1400px] w-full hidden slg:block">
+    <footer className="bg-[#DEDFE1] w-full py-2 flex flex-col item-center mx-auto mb-6">
+      <div className="container mx-auto max-w-[1400px] w-full hidden slg:block">
         <section className="flex justify-center gap-16 mt-2">
           <div className="flex flex-col gap-4 w-[80%]">
             <LogoImage className="rounded-sm" />
@@ -207,7 +207,7 @@ const Footer = () => {
 
       <div className="mx-auto max-w-[1156px]">
         <div className="flex items-center justify-center py-2 gap-3">
-          <div className="flex gap-1">
+          {/* <div className="flex gap-1">
             {footer1socialMediaIcons.map((item, index) => (
               <motion.a
                 href={item.link}
@@ -220,7 +220,7 @@ const Footer = () => {
                 {item.icon}
               </motion.a>
             ))}
-          </div>
+          </div> */}
           <div className="text-secondary-500 text-[8px] sm:text-[10px] slg:text-xs font-[400] leading-[1.2]">
             Copyright&nbsp;@ {currentYear}&nbsp;{CompanyName} Alright Reserved.
           </div>

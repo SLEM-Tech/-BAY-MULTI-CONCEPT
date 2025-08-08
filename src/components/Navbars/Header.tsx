@@ -361,7 +361,7 @@ const Header = () => {
                 <DropdownTrigger className="">
                   <button
                     type="button"
-                    className="bg-[#f9b3a7] text-white hover:bg-black cursor-pointer transition-[.4] group text-medium group-hover:text-white p-0 size-8"
+                    className="bg-[#000000]/80 text-white hover:bg-black cursor-pointer transition-[.4] group text-medium group-hover:text-white p-0 size-8"
                   >
                     {baseCurrency?.symbol}
                   </button>
@@ -392,7 +392,7 @@ const Header = () => {
               >
                 {typeof window !== "undefined" && (
                   <div className="flex relative justify-center items-center w-10 h-10 p-2 text-sm hover:rounded-full hover:bg-[#fadfdb]">
-                    <span className="absolute -top-1 -right-1 w-5 h-5 bg-[#f9b3a7] text-white shadow-lg flex justify-center items-center rounded-full">
+                    <span className="absolute -top-1 -right-1 w-5 h-5 bg-[#000000] text-white shadow-lg flex justify-center items-center rounded-full">
                       {totalItems}
                     </span>
                     {/* <CartIconSvg /> */}

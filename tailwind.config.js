@@ -15,10 +15,10 @@ export const theme = {
 			light: "#F3F3F3",
 			background: "#F3F3F3",
 			gray: {
-				100: "#FDF7FD",
+				100: "#fafafa",
 				200: "#CCCCCC",
 			},
-			primary: "#f9b3a7",
+			primary: "#000000",
 			effect: "#E2C8C4",
 			primaryColor: {
 				100: "#9BCB14",
